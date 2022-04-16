@@ -44,7 +44,7 @@ Dibawah adalah struktur Dasar Html menggunakan **Framework Bootstrap** Untuk men
 </html>
 ```
 
-## 2). MEMBUAT 
+## 2). MEMBUAT CONTAINER
 
 **PENJELASAN**
 
