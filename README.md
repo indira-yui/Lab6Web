@@ -213,7 +213,7 @@ Sama seperti di atas ini juga masih dalan row dan cuma col yang sama serta class
             </div>
 ```
 
-## WIDGET 
+## WIDGET HEADER
 
 ![widget_header](img/widget_header.png)
 
@@ -246,7 +246,7 @@ Menambahkan Widget **class** ***list group*** pada bootstrap karena bootstrap su
 
 Langkah berikutnya yaitu membuat **widget text** pada colom yang sama dengan **widget header** dan menggunakan beberapa class dibootstrap dalam membuat nya secara otomatis seperti contoh gambar di atas dan code dibawah.
 
-**code html widget header**
+**code html widget text**
 ```html
    <!-- Widget Text -->
                 <div class="list-group my-4" style="border-radius: 0; border: 1px #eee;">
@@ -311,7 +311,7 @@ Lalu membuat **row** baru dan juga **col** baru dengan menambahkan ***class*** d
 
 Kemudian menambahkan **section 2** dengan dibungkus **row dan col** seperti hasil di atas dan code html nya dibawah.
 
-**code html comtent 3 section 2**
+**code html content 3 section 2**
 ```html
 <!-- Row Content 3 -->
         <div class="row">
@@ -357,7 +357,7 @@ Terakhir yaitu membuat **card-footer** dengan class card yang terdapat dibootstr
 </div>
 ```
 
-## 10).FULL LAYOUT
+## 10). FULL LAYOUT
 
 ![full-layout](img/full_layout.png)
 
