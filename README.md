@@ -23,14 +23,18 @@ Dibawah adalah struktur Dasar Html menggunakan **Framework Bootstrap** Untuk men
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
     <title>Web Framework</title>
   </head>
   <body>
     <!-- Optional JavaScript; choose one of the two! -->
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -50,6 +54,7 @@ Membuat **Container** dengan **class container** **container** ini adalah contai
 ```html
  <!-- Container -->
     <div class="container">
+
     </div>
 ```
 
@@ -159,6 +164,7 @@ Menambahkan CARD 1 dengan menggunakan **grid** **row** dan **col**  dan juga men
 ![card2](img/card2.png)
 
 **PENJELASAN**
+
 Sama seperti di atas ini juga masih dalan row dan cuma col yang sama serta class yang sama
 
 **code html card 2**
@@ -206,3 +212,159 @@ Sama seperti di atas ini juga masih dalan row dan cuma col yang sama serta class
                 </div>
             </div>
 ```
+
+## WIDGET 
+
+![widget_header](img/widget_header.png)
+
+**PENJELASAN**
+
+Menambahkan Widget **class** ***list group*** pada bootstrap karena bootstrap sudah menyediakan nya tinggal masukan beberapa **class** pada elemen html untuk mendesainnya disini masih menggunakan **col-3** begitu juga ***widget** berikut nya masih dibungkus dengan **col-3** seperti contoh gambar di atas dan contoh code dibawah.
+
+**code html widget header**
+```html
+            <!-- Widget Header -->
+            <div class="col-3">
+                <div class="list-group my-4" style="border-radius: 0;">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true"
+                        style="font-weight: bold;">
+                        Widget Header
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                    <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                    <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                    <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                    <a href="#" class="list-group-item list-group-item-action">Widget Link</a>
+                </div>
+```
+
+## WIDGET TEXT
+
+![widget-text](img/widget_text.png)
+
+**PENJELASAN**
+
+Langkah berikutnya yaitu membuat **widget text** pada colom yang sama dengan **widget header** dan menggunakan beberapa class dibootstrap dalam membuat nya secara otomatis seperti contoh gambar di atas dan code dibawah.
+
+**code html widget header**
+```html
+   <!-- Widget Text -->
+                <div class="list-group my-4" style="border-radius: 0; border: 1px #eee;">
+                    <a href="#" class="list-group-item list-group-item-action active " aria-current="true"
+                        style="font-weight: bold;">
+                        Widget Text
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quas natus, amet ab
+                            voluptatibus beatae accusamus, quam hic veritatis ipsa, accusantium est nihil dolores minus
+                            at labore sapiente autem vero.</p>
+                    </a>
+                </div>
+            </div>
+```
+
+## 7). MEMBUAT ROW CONTENT 2 (SECTION 1)
+
+![content2-section1](img/row_content2.png)
+
+**PENJELASAN**
+
+Lalu membuat **row** baru dan juga **col** baru dengan menambahkan ***class*** dan juga inline css untuk sedikit memperindah seperti gambar di atas dan code dibawah.
+
+**code html content 2 section 1**
+```html
+<!-- Row Content 2 -->
+        <div class="row">
+            <!-- Section 1 -->
+            <div class="col-8-md">
+                <div class="card mb-3" style="width: 900px; height: 200px;  border: 0;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://dummyimage.com/150/7b8a70/fff.png" class="img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title" style="font-weight: bold;">First featurette heading</h2>
+                                <p class="card-text" style="text-align: left;">This is a wider card with supporting text
+                                    below as a
+                                    natural lead-in to additional
+                                    content. This content is a little bit longer. Lorem, ipsum dolor sit amet
+                                    consectetur adipisicing
+                                    elit. Velit animi quidem facere neque. Ea rem labore dolorum, necessitatibus quod,
+                                    maiores tempore
+                                    harum fugit qui accusantium iure. Dolorum illo repellat vitae?</p>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+```
+
+## 8). MEMBUAT ROW CONTENT 3 (SECTION 2)
+
+![content3-section2](img/row_content3.png)
+
+**PENJELASAN**
+
+Kemudian menambahkan **section 2** dengan dibungkus **row dan col** seperti hasil di atas dan code html nya dibawah.
+
+**code html comtent 3 section 2**
+```html
+<!-- Row Content 3 -->
+        <div class="row">
+            <!-- Section 2 -->
+            <div class="col-8-lg me-5">
+                <div class="card mb-3" style="width: 900px; height: 200px; border: 0;">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title" style="font-weight: bold;">First featurette heading</h2>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer. Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                    Animi rerum at facilis nesciunt. Quidem, ullam quod beatae sapiente excepturi, vitae
+                                    praesentium ipsa
+                                    ab optio, doloribus voluptatem vel atque eveniet necessitatibus?</p>
+                                <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="https://dummyimage.com/150/7b8a70/fff.png" class="img-fluid rounded-start"
+                                alt="picture">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+```
+
+## 9). MEMBUAT CARD FOOTER
+
+![card-footer](img/card_footer.png)
+
+**PENJELASAN**
+
+Terakhir yaitu membuat **card-footer** dengan class card yang terdapat dibootstrap seperti gambar di atas dan code di bawah.
+
+**code html card-footer**
+```html
+<div class="card-footer text-center" style=" background-color: #1d1d1d; color: #eee;">
+    <p>© 2022 - Universitas Pelita Bangsa</p>
+</div>
+```
+
+## 10).FULL LAYOUT
+
+![full-layout](img/full_layout.png)
+
+Berikut tampilan full layout
+
+----------------------------------------------------------------
+
+## SEKIAN & TERIMAKASIH
+
+### @INDIRA_ALINE
